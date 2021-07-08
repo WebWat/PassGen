@@ -37,8 +37,8 @@ namespace PassGen
                 return;
             }
 
-            //Code from:
-            //https://stackoverflow.com/a/54471736
+            // Code from:
+            // https://stackoverflow.com/a/54471736
             /********************************************/
             var result = new StringBuilder(int.Parse(PasswordLength.Text));
 
