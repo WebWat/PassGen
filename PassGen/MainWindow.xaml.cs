@@ -23,17 +23,17 @@ namespace PassGen
         {
             if (PasswordLength.Text.Length == 0)
             {
-                ShowErrorMessage("Укажите длину пароля");
+                ShowErrorMessage("Specify the password length");
                 return;
             }
             else if (int.Parse(PasswordLength.Text) < 5 || int.Parse(PasswordLength.Text) > 60)
             {
-                ShowErrorMessage("Длина пароля 5-60");
+                ShowErrorMessage("Password length 5-60");
                 return;
             }
             else if (Symbols.Length == 0)
             {
-                ShowErrorMessage("Настройте генератор");
+                ShowErrorMessage("Set up the generator");
                 return;
             }
 
@@ -73,7 +73,7 @@ namespace PassGen
         {
             if (Password.Text.Length == 0)
             {
-                ShowErrorMessage("Поле пустое");
+                ShowErrorMessage("The field is empty");
                 return;
             }
 

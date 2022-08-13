@@ -56,7 +56,7 @@
                 </Style>
             </TextBox.Resources>
         </TextBox>
-        <Button Content="Сгенерировать"       
+        <Button Content="Generate"       
                 HorizontalAlignment="Left" 
                 VerticalAlignment="Top" 
                 BorderBrush="#1451AE"
@@ -95,7 +95,7 @@
                 </EventTrigger>
             </Button.Triggers>
         </Button>
-        <Button Content="Скопировать"           
+        <Button Content="Copy"           
                 HorizontalAlignment="Left" 
                 VerticalAlignment="Top"
                 Margin="647,100,0,0" 
@@ -154,19 +154,19 @@
                     Height="60" 
                     Margin="32,215,0,0">
             <WrapPanel Orientation="Vertical">
-                <CheckBox Checked="Uppercase_Checked" Unchecked="Uppercase_Unchecked" Content="Прописные буквы" Width="215" />
+                <CheckBox Checked="Uppercase_Checked" Unchecked="Uppercase_Unchecked" Content="Capital letters" Width="215" />
                 <Label Content="ABCDEFG..."></Label>
             </WrapPanel>
             <WrapPanel Orientation="Vertical">
-                <CheckBox Checked="Lowercase_Checked" Unchecked="Lowercase_Unchecked" Content="Строчные буквы" Width="205" />
+                <CheckBox Checked="Lowercase_Checked" Unchecked="Lowercase_Unchecked" Content="Small letters" Width="205" />
                 <Label Content="abcdefg..."></Label>
             </WrapPanel>
             <WrapPanel Orientation="Vertical">
-                <CheckBox Checked="Numbers_Checked" Unchecked="Numbers_Unchecked" Content="Числа" Width="170" />
+                <CheckBox Checked="Numbers_Checked" Unchecked="Numbers_Unchecked" Content="Numbers" Width="170" />
                 <Label Content="0123456..."></Label>
             </WrapPanel>
             <WrapPanel Orientation="Vertical">
-                <CheckBox Checked="Special_Checked" Unchecked="Special_Unchecked" Content="Спец. символы" Width="150" />
+                <CheckBox Checked="Special_Checked" Unchecked="Special_Unchecked" Content="Special symbols" Width="150" />
                 <Label Content="%#$({]=..."></Label>
             </WrapPanel>
         </StackPanel>
